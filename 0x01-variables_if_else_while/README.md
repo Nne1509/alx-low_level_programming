@@ -1,1 +1,1 @@
-determining integer value
+if else while in c
