@@ -5,7 +5,8 @@
 /**
  * main - checks int if positive, negative or zero
  *
- * return: 0
+ *Description: using main function
+ *Return: 0
  */
 int main(void)
 {
