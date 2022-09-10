@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - checks integer
- * Description: checks if positive, negative or zero
+ * main - checks int if positive, negative or zero
  *
  * return: 0
  */
