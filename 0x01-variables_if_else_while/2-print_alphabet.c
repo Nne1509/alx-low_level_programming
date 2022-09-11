@@ -2,8 +2,8 @@
 
 /**
  * main - this prints objects in lowercase,
- * followed by a new line 
- * Return : 0
+ *followed by a new line 
+ *Return : 0
  */
 int main(void)
 {
