@@ -2,8 +2,8 @@
 
 /**
  * main - prints alphabet in lowercase then in uppercase
- * 
- * Description: uses the main function
+ *
+ * Description: using main function
  * Return: 0
  */
 int main(void)
