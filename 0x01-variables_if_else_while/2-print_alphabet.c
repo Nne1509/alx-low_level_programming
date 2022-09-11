@@ -2,8 +2,7 @@
 
 /**
  * main - prints objects in lowercase
- * 
- * Description: uses main function
+ * Description: uses main function followed by a new line
  * Return : 0
  */
 int main(void)
