@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints objects in lowercase
- * Description: uses main function followed by a new line
+ * main - this prints objects in lowercase
+ * 
+ * Description: using the main function 
  * Return : 0
  */
 int main(void)
