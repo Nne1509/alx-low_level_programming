@@ -2,7 +2,6 @@
 
 /**
  * add - adds the integers
- * 
  * @n: first integer
  * @m: second integer
  * Return: 0
