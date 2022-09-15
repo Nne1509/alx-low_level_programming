@@ -2,8 +2,6 @@
 
 /**
  * main - tests for positive and negative
- *
- * Description: uses the main function
  * Return: 0
  */
 int main(void)
