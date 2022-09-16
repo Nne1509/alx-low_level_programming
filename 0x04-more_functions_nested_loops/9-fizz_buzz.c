@@ -10,23 +10,26 @@
 
 int main(void)
 {
-	int n;
+	int n = 1;
 
-	for (n = 1; n <= 100; n++)
+	while (n++ < 100)
 	{
-		if (n % 3 == 0 && n % 5 != 0)
-		{
-			printf("Fizz");
-		} else if (n % 5 == 0 && n % 3 != 0)
-		{
-			printf("Buzz");
-		} else if (n % 3 == 0 && n % 5 == 0)
+		if ((n % 3 == 0) && (n % 5 == 0))
 		{
 			printf("FizzBuzz");
-		} else if (n == 1)
+		}
+		else if ((n % 3) == 0)
 		{
-			printf("%d", n);
-		} else
+			printf("Fizz");
+		}
+		else if ((n % 5) == 0)
+		{
+			if (n != 100)
+			{
+				printf("Buzz");
+			}
+		}
+		else
 		{
 			printf("%d", n);
 		}
@@ -35,3 +38,4 @@ int main(void)
 
 	return (0);
 }
+
