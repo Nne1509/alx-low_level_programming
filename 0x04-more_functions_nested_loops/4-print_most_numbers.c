@@ -10,13 +10,16 @@ void print_most_number(void)
 {
 	int a;
 
-	for (a = 48; a < 58; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		if ((a == 50) || (a == 52))
+		if ((a == 2) || (a == 4))
 		{
 			continue;
 		}
-		putchar(a);
+		else
+		{
+			_putchar(a + '0');
+		}
 	}
-	putchar(10);
+	_putchar('\n');
 }
