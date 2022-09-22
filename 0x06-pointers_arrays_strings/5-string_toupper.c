@@ -4,6 +4,7 @@
  * string_toupper - changes lowercase letters
  * to uppercase in a string
  * @s: string to change
+ *
  * Return: uppercase string
  */
 
